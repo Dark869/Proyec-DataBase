@@ -21,18 +21,33 @@ public class InterfaceMain extends JDialog {
         setTitle("DB - Alquileres Xalapa");
         setSize(400, 225);
         setLocationRelativeTo(parent);
-        setVisible(true);
 
         bConect.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                loginUser();
             }
         });
+
+        setVisible(true);
     }
 
-    private void loginUser() {
+    public void loginUser() {
         String user = tfUser.getText();
         String password = String.valueOf(tfPassword.getPassword());
+
+        if(user.isEmpty() || password.isEmpty()){
+            JOptionPane.showMessageDialog(this,
+                    "Por favor, ingrese su usuario y contraseña",
+                    "Error",
+                    JOptionPane.ERROR_MESSAGE);
+        } else if(user != "root" || user != "Cliente" || user != "Tecnico"){
+            JOptionPane.showMessageDialog(this,
+                    "El usuario ingresado no existe",
+                    "Error",
+                    JOptionPane.ERROR_MESSAGE);
+        } else if(){
+
+        }
     }
 }
