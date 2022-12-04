@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseDbTool">
+    <option name="sources">
+      <map>
+        <entry key="localhost">
+          <value>
+            <DataConfigSourceDto>
+              <option name="comment" value="" />
+              <option name="dataBaseType" value="MySql" />
+              <option name="database" value="Alquileres_Xalapa" />
+              <option name="databaseName" value="localhost" />
+              <option name="databaseSslConfig">
+                <DatabaseSslConfig>
+                  <option name="caFile" value="" />
+                  <option name="clientCertificateFile" value="" />
+                  <option name="clientKeyFile" value="" />
+                  <option name="clientKeyPassword" value="" />
+                  <option name="sslMode" value="REQUIRE" />
+                </DatabaseSslConfig>
+              </option>
+              <option name="databaseVersion">
+                <NameVersion>
+                  <option name="majorVersion" value="5" />
+                  <option name="minorVersion" value="5" />
+                  <option name="name" value="MySQL" />
+                  <option name="version" value="5.5.5-10.9.3-MariaDB" />
+                </NameVersion>
+              </option>
+              <option name="dbFile" value="" />
+              <option name="driverCombos" value="thin" />
+              <option name="driverType" value="MySQL" />
+              <option name="host" value="localhost" />
+              <option name="jarUrl" value="C:\Users\Victor\AppData\Roaming\JetBrains\IdeaIC2022.2\jdbc-drivers\MySQL ConnectorJ\8.0.21\mysql-connector-java-8.0.21.jar" />
+              <option name="myUniqueId" value="35e74d54-50aa-4b95-8a8f-00c38fe79b66" />
+              <option name="port" value="3306" />
+              <option name="schemaSourceDto">
+                <SchemaSourceDto>
+                  <option name="name" value="Alquileres_Xalapa" />
+                  <option name="tableSources">
+                    <list>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="autoIncrement" value="true" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="id_agencia" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="auto_increment" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="pk" value="true" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="rfc" />
+                              <option name="columnType" value="varchar(13)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="13" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="colonia" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="calle" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="4" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="num" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="5" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnDefault" value="NULL" />
+                              <option name="columnName" value="cod_postal" />
+                              <option name="columnType" value="int(5)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="nullable" value="true" />
+                              <option name="ordinalPosition" value="6" />
+                              <option name="size" value="5" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="telefono" />
+                              <option name="columnType" value="varchar(10)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="7" />
+                              <option name="size" value="10" />
+                              <option name="tableName" value="agencia" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="PK" value="true" />
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="id_agencia" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="PRIMARY" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="tableName" value="agencia" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="agencia" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="autoIncrement" value="true" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="id_alquiler" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="auto_increment" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="pk" value="true" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="vivienda" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="fianza" />
+                              <option name="columnType" value="float" />
+                              <option name="dataType" value="6" />
+                              <option name="dataTypeStr" value="FLOAT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="FLOAT" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="import_men" />
+                              <option name="columnType" value="float" />
+                              <option name="dataType" value="6" />
+                              <option name="dataTypeStr" value="FLOAT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="4" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="FLOAT" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="fecha_firma" />
+                              <option name="columnType" value="date" />
+                              <option name="dataType" value="91" />
+                              <option name="dataTypeStr" value="DATE" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="5" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="DATE" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="fecha_inicio" />
+                              <option name="columnType" value="date" />
+                              <option name="dataType" value="91" />
+                              <option name="dataTypeStr" value="DATE" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="6" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="DATE" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="fecha_fin" />
+                              <option name="columnType" value="date" />
+                              <option name="dataType" value="91" />
+                              <option name="dataTypeStr" value="DATE" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="7" />
+                              <option name="tableName" value="alquiler" />
+                              <option name="typeName" value="DATE" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="PK" value="true" />
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="id_alquiler" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="PRIMARY" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="tableName" value="alquiler" />
+                            </ColumnIndexInfo>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="vivienda" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="vivienda" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="alquiler" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="alquiler" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="colonia" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="contratacion" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="calle" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="contratacion" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="num" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="contratacion" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnDefault" value="NULL" />
+                              <option name="columnName" value="cod_postal" />
+                              <option name="columnType" value="int(5)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="nullable" value="true" />
+                              <option name="ordinalPosition" value="4" />
+                              <option name="size" value="5" />
+                              <option name="tableName" value="contratacion" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="telefono" />
+                              <option name="columnType" value="varchar(10)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="5" />
+                              <option name="size" value="10" />
+                              <option name="tableName" value="contratacion" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="contratacion" />
+                        <option name="tableRemark" value="VIEW" />
+                        <option name="tableType" value="VIEW" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="propietario" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="emailpropi" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="email" />
+                              <option name="columnType" value="varchar(50)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="50" />
+                              <option name="tableName" value="emailpropi" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="propietario" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="propietario" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="emailpropi" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="emailpropi" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="autoIncrement" value="true" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="id_inquilino" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="auto_increment" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="pk" value="true" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="inquilino" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="alquiler" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="inquilino" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="nombre" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="inquilino" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="apellidos" />
+                              <option name="columnType" value="varchar(30)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="4" />
+                              <option name="size" value="30" />
+                              <option name="tableName" value="inquilino" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnDefault" value="NULL" />
+                              <option name="columnName" value="fecha_nacimiento" />
+                              <option name="columnType" value="date" />
+                              <option name="dataType" value="91" />
+                              <option name="dataTypeStr" value="DATE" />
+                              <option name="extra" value="" />
+                              <option name="nullable" value="true" />
+                              <option name="ordinalPosition" value="5" />
+                              <option name="tableName" value="inquilino" />
+                              <option name="typeName" value="DATE" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="alquiler" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="alquiler" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="inquilino" />
+                            </ColumnIndexInfo>
+                            <ColumnIndexInfo>
+                              <option name="PK" value="true" />
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="id_inquilino" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="PRIMARY" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="tableName" value="inquilino" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="inquilino" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="autoIncrement" value="true" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="id_propietario" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="auto_increment" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="pk" value="true" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="nombre" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="apellidos" />
+                              <option name="columnType" value="varchar(30)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="size" value="30" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="colonia" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="4" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="calle" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="5" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="num" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="6" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnDefault" value="NULL" />
+                              <option name="columnName" value="cod_postal" />
+                              <option name="columnType" value="int(5)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="nullable" value="true" />
+                              <option name="ordinalPosition" value="7" />
+                              <option name="size" value="5" />
+                              <option name="tableName" value="propietario" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="PK" value="true" />
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="id_propietario" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="PRIMARY" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="tableName" value="propietario" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="propietario" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="autoIncrement" value="true" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="id_renov" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="auto_increment" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="pk" value="true" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="renovacion" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="alquiler" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="renovacion" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="es_renovacion" />
+                              <option name="columnType" value="tinyint(1)" />
+                              <option name="dataType" value="16" />
+                              <option name="dataTypeStr" value="TINYINT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="size" value="1" />
+                              <option name="tableName" value="renovacion" />
+                              <option name="typeName" value="BOOLEAN" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="alquiler" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="alquiler" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="renovacion" />
+                            </ColumnIndexInfo>
+                            <ColumnIndexInfo>
+                              <option name="PK" value="true" />
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="id_renov" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="PRIMARY" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="tableName" value="renovacion" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="renovacion" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="inquilino" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="telefinqui" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="telefono" />
+                              <option name="columnType" value="varchar(10)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="10" />
+                              <option name="tableName" value="telefinqui" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="inquilino" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="inquilino" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="telefinqui" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="telefinqui" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="propietario" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="telefpropi" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="telefono" />
+                              <option name="columnType" value="varchar(10)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="10" />
+                              <option name="tableName" value="telefpropi" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="propietario" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="propietario" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="telefpropi" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="telefpropi" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                      <TableSourceDto>
+                        <option name="columns">
+                          <list>
+                            <ColumnSourceDto>
+                              <option name="autoIncrement" value="true" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="id_vivienda" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="auto_increment" />
+                              <option name="ordinalPosition" value="1" />
+                              <option name="pk" value="true" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="agencia" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="2" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="propietario" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="3" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="collationName" value="latin1_swedish_ci" />
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="calle" />
+                              <option name="columnType" value="varchar(20)" />
+                              <option name="dataType" value="12" />
+                              <option name="dataTypeStr" value="VARCHAR" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="4" />
+                              <option name="size" value="20" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="VARCHAR" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="num" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="5" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnDefault" value="NULL" />
+                              <option name="columnName" value="cod_postal" />
+                              <option name="columnType" value="int(5)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="nullable" value="true" />
+                              <option name="ordinalPosition" value="6" />
+                              <option name="size" value="5" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                            <ColumnSourceDto>
+                              <option name="columnComment" value="" />
+                              <option name="columnName" value="poblacion" />
+                              <option name="columnType" value="int(11)" />
+                              <option name="dataType" value="4" />
+                              <option name="dataTypeStr" value="INT" />
+                              <option name="extra" value="" />
+                              <option name="ordinalPosition" value="7" />
+                              <option name="size" value="11" />
+                              <option name="tableName" value="vivienda" />
+                              <option name="typeName" value="INTEGER" />
+                            </ColumnSourceDto>
+                          </list>
+                        </option>
+                        <option name="databaseType" value="MySql" />
+                        <option name="keys">
+                          <list>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="agencia" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="agencia" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="vivienda" />
+                            </ColumnIndexInfo>
+                            <ColumnIndexInfo>
+                              <option name="PK" value="true" />
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="id_vivienda" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="PRIMARY" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="tableName" value="vivienda" />
+                            </ColumnIndexInfo>
+                            <ColumnIndexInfo>
+                              <option name="collation" value="A" />
+                              <option name="columnName" value="propietario" />
+                              <option name="indexComment" value="" />
+                              <option name="indexName" value="propietario" />
+                              <option name="indexType" value="BTREE" />
+                              <option name="nonUnique" value="true" />
+                              <option name="tableName" value="vivienda" />
+                            </ColumnIndexInfo>
+                          </list>
+                        </option>
+                        <option name="schema" value="Alquileres_Xalapa" />
+                        <option name="tableName" value="vivienda" />
+                        <option name="tableRemark" value="" />
+                        <option name="tableType" value="BASE TABLE" />
+                      </TableSourceDto>
+                    </list>
+                  </option>
+                </SchemaSourceDto>
+              </option>
+              <option name="sid" value="" />
+              <option name="url" value="jdbc:mysql://localhost:3306/Alquileres_Xalapa?useSSL=false&amp;serverTimezone=America/Mexico_City" />
+              <option name="userName" value="root" />
+              <option name="driverVersion">
+                <NameVersion>
+                  <option name="majorVersion" value="8" />
+                  <option name="name" value="MySQL Connector/J" />
+                  <option name="version" value="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" />
+                </NameVersion>
+              </option>
+            </DataConfigSourceDto>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

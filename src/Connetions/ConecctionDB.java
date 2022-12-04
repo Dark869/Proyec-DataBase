@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConecctionDB {
     static Connection cn;
-    static String db = "venta";
+    static String db = "Alquileres_Xalapa";
     static String url = "jdbc:mysql://localhost:3306/" + db;
     static String user = "root";
     static String pass = "Nevulosa12.";
@@ -23,14 +23,5 @@ public class ConecctionDB {
         }
         return cn;
     }
-
-    public void disconnect() {
-        try {
-            cn.close();
-            System.out.println("Connection closed");
-        } catch (SQLException e) {
-            System.out.println("Error: Doesn't close the connection");
-        }
-
-    }
 }
+
