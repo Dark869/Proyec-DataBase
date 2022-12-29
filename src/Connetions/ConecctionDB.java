@@ -1,14 +1,8 @@
 package Connetions;
 
-import Interfaces.InterfaceMain;
-import Interfaces.MainMenu;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class ConecctionDB {
-    static InterfaceMain iM = new InterfaceMain();
 
     static Connection cn;
     static String db = "alquileres_xalapa";
@@ -18,17 +12,37 @@ public class ConecctionDB {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             cn = DriverManager.getConnection(url, user, pass);
-            System.out.println("Connection successful with user: " + user);
-            iM.ConnectionSuccessful();
-            MainMenu mm = new MainMenu(null);
-            mm.setVisible(true);
+            System.out.println("Conexión exitosa con el usuario: " + user);
+            System.out.println();
         } catch (ClassNotFoundException e) {
             System.out.println("Error: " + e);
         } catch (SQLException e) {
-            System.out.println("Error: Doesn't connect to the database");
-            iM.DontConection();
+            System.out.println("Error: No se pudo conectar con la base de datos");
+            System.out.println("Revise su usuario y contraseña");
+            System.exit(0);
         }
         return cn;
     }
-}
 
+    public static PreparedStatement prepareStatement(String sql) {
+        PreparedStatement ps = null;
+        try {
+            ps = cn.prepareStatement(sql);
+        } catch (SQLException e) {
+            System.out.println("Error: " + e);
+        }
+        return ps;
+    }
+
+    public static void createStatement() {
+        PreparedStatement ps = null;
+        try {
+            ps = cn.prepareStatement("select * from propietario");
+            ResultSet rs = ps.executeQuery();
+            DataControl dataControl = new DataControl();
+            dataControl.query(rs);
+        } catch (SQLException e) {
+            System.out.println("Error: " + e);
+        }
+    }
+}
